@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiPo.Send", "HiPo.Send\HiPo.Send.csproj", "{2A0872ED-BD93-41FC-A163-A4A31FD430FF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiPo.Api", "HiPo.Api\HiPo.Api.csproj", "{74CA9554-BD6A-4184-B8E4-9C2FF7233B3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiPo.Service", "HiPo.Storage\HiPo.Service.csproj", "{76D2A392-F337-405E-A390-65CF34E1AA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiPo.Receiver", "HiPo.Receiver\HiPo.Receiver.csproj", "{30344CB3-6DED-410C-B925-E4F0602F1AF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A0872ED-BD93-41FC-A163-A4A31FD430FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A0872ED-BD93-41FC-A163-A4A31FD430FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A0872ED-BD93-41FC-A163-A4A31FD430FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A0872ED-BD93-41FC-A163-A4A31FD430FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74CA9554-BD6A-4184-B8E4-9C2FF7233B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74CA9554-BD6A-4184-B8E4-9C2FF7233B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74CA9554-BD6A-4184-B8E4-9C2FF7233B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{76D2A392-F337-405E-A390-65CF34E1AA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D2A392-F337-405E-A390-65CF34E1AA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D2A392-F337-405E-A390-65CF34E1AA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30344CB3-6DED-410C-B925-E4F0602F1AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30344CB3-6DED-410C-B925-E4F0602F1AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30344CB3-6DED-410C-B925-E4F0602F1AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30344CB3-6DED-410C-B925-E4F0602F1AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

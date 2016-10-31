@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HiPo.Service.Models
+﻿namespace HiPo.Service.Models
 {
     public class JsonResponse
     {

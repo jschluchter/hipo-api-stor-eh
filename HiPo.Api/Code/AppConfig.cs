@@ -9,5 +9,19 @@ namespace HiPo.Api.Code
             get { return ConfigurationManager.AppSettings["PrimaryStorage"]; }
         }
 
+        public static string RedisConnection
+        {
+            get { return ConfigurationManager.AppSettings["RedisConnection"]; }
+        }
+
+        public static string EventHubConnection
+        {
+            get { return ConfigurationManager.AppSettings["EventHubConnection"]; }
+        }
+        public static string EventHubName
+        {
+            get { return ConfigurationManager.AppSettings["EventHubName"]; }
+        }
+
     }
 }
