@@ -13,8 +13,6 @@ namespace HiPo.Receiver
         {
             string eventHubConnectionString = "Endpoint=sb://eh-demo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=shihzPAai4oz8A9ZEYVxm6FvAuPszO+jx7683yYhkS0=";
             string eventHubName = "eh-example";
-            //string storageAccountName = "{storage account name}";
-            //string storageAccountKey = "{storage account key}";
             string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stehdemo;AccountKey=smc73oUiyJzWk045+QMbFjY9umOVmnRpZhxTTTm2rnWpQA1wprBGITbCjlKtruPr192RB0enyoNmo9K4bJblzg==";
 
             string eventProcessorHostName = Guid.NewGuid().ToString();
